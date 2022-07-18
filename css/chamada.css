@@ -31,10 +31,18 @@ table{
     width: 100%;
 }
 main > button{
+    float: left;
+}
+.btn-padrao{    
     color: var(--cor-texto-claro);
     background-color: var(--cor-fundo-escuro);
     font-weight: bolder;
-    padding: .5em;
+    padding: 0.5em;
     border-radius: 8px;
-    float: left;
+}
+.modal-content{
+    background-color: var(--cor-principal-clara);
+}
+.modal-header{
+    background-color: var(--cor-principal-escura);
 }
